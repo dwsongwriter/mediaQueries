@@ -14,6 +14,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #f90f;
+  min-height: 300px;
 }
 
 
@@ -32,56 +38,56 @@ body {
 .one {
   outline: 1px dashed #f90f;
   background-color: #f907;
-  padding: 5% 10%;
+  padding: 5% 5%;
 }
 
 .two {
   outline: 1px dashed #f90f;
   background-color: #f907;
-  padding: 5% 10%;
+  padding: 5% 5%;
 }
 
 .three {
   outline: 1px dashed #f90f;
   background-color: #f907;
-  padding: 5% 10%;
+  padding: 5% 5%;
 }
 
 .four {
   outline: 1px dashed #f90f;
   background-color: #f907;
-  padding: 5% 10%;
+  padding: 5% 5%;
 }
 
 .five {
   outline: 1px dashed #f90f;
   background-color: #f907;
-  padding: 5% 10%;
+  padding: 5% 5%;
 }
 
 .six {
 
   background-color: #f907;
   outline: 1px dashed #f90f;
-  padding: 5% 10%;
+  padding: 5% 5%;
 }
 
 .seven {
   background-color: #f907;
   outline: 1px dashed #f90f;
-  padding: 5% 10%;
+  padding: 5% 5%;
 }
 
 .eight {
   background-color: #f907;
   outline: 1px dashed #f90f;
-  padding: 5% 10%;
+  padding: 5% 5%;
 }
 
 .nine {
   background-color: #f907;
   outline: 1px dashed #f90f;
-  padding: 5% 10%;
+  padding: 5% 5%;
 }
 
 
@@ -96,7 +102,7 @@ body {
       row-gap: 5%;
       column-gap: 5%;
       grid-template-columns: repeat(2, 1fr);
-      /* grid-auto-rows: minmax(100px, auto); */
+      grid-auto-rows: minmax(100px, auto);
       outline: 3px dashed #f90f;
     }
 

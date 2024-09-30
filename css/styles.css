@@ -66,8 +66,8 @@ footer {
 }
 
 .four {
-  background-color: #f907;
-  border: 1px dashed #f90;
+  background-image: linear-gradient(#98BECC, #3295C7);
+  
 }
 
 .five {
@@ -131,6 +131,7 @@ footer {
       grid-column: 2/3;
     }
 
+    /* FOR CLASS */
     .cards {
       display: grid;
       grid-template-columns: repeat(2, minmax(230px, 1fr));
@@ -140,6 +141,9 @@ footer {
     .card {
       display: grid;
       grid-template-rows: max-content 200px 1fr;
+      border: 2px dashed #0B7AB0;
+      background-color: #375872;
+      color: #fff;
     }
   
     .card img {
@@ -208,7 +212,7 @@ footer {
     grid-column-start: 3;
     grid-column-end: 4;
   }
-
+  /* For Class */
   .cards {
     display: grid;
     grid-template-columns: repeat(3, minmax(230px, 1fr));
@@ -218,6 +222,7 @@ footer {
   .card {
     display: grid;
     grid-template-rows: max-content 200px 1fr;
+
   }
 
   .card img {

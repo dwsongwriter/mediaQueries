@@ -25,12 +25,13 @@ nav {
   display: flex;
   padding: 10px;
   background-color: #05f;
-  justify-content:space-between;
+  justify-content: flex-end;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+  padding: 0 .6em;
 }
 
 img {
@@ -73,12 +74,14 @@ p {
 
 .four {
   background-image: linear-gradient(#98BECC, #3295C7);
-  
+  padding: 5%;
 }
 
 .five {
-  background-color: #f907;
-  border: 1px dashed #f90;
+  background-color: #98BECC;
+  color: #3F494E;
+  padding: 5%;
+  min-height: 200px;
 }
 
 .six {
@@ -290,6 +293,8 @@ p {
 /* End of desktop @media */ 
 
 .pgFooter {
+  margin-top: 0;
+  padding: 10%;
   background-color: #375872;
   color: white;
   height: 400px;
